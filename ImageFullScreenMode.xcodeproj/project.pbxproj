@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE432A2614DFBC2A0012D5BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE432A2514DFBC2A0012D5BD /* UIKit.framework */; };
+		DE432A2814DFBC2A0012D5BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE432A2714DFBC2A0012D5BD /* Foundation.framework */; };
+		DE432A2A14DFBC2A0012D5BD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE432A2914DFBC2A0012D5BD /* CoreGraphics.framework */; };
+		DE432A3014DFBC2A0012D5BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE432A2E14DFBC2A0012D5BD /* InfoPlist.strings */; };
+		DE432A3214DFBC2A0012D5BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE432A3114DFBC2A0012D5BD /* main.m */; };
+		DE432A3614DFBC2A0012D5BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE432A3514DFBC2A0012D5BD /* AppDelegate.m */; };
+		DE432A3914DFBC2A0012D5BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE432A3814DFBC2A0012D5BD /* ViewController.m */; };
+		DE432A3C14DFBC2A0012D5BD /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE432A3A14DFBC2A0012D5BD /* ViewController.xib */; };
+		DE432A4714DFBC990012D5BD /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = DE432A4614DFBC990012D5BD /* Image.m */; };
+		DE432A4C14DFBDED0012D5BD /* apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE432A4B14DFBDED0012D5BD /* apple.jpg */; };
+		DE432A5414DFC2160012D5BD /* ImageFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = DE432A5314DFC2160012D5BD /* ImageFullScreen.m */; };
+		DE432A5914DFC4160012D5BD /* Thumbnails.m in Sources */ = {isa = PBXBuildFile; fileRef = DE432A5814DFC4160012D5BD /* Thumbnails.m */; };
+		DE432A6514DFC76B0012D5BD /* UIImage+SizeControl.m in Sources */ = {isa = PBXBuildFile; fileRef = DE432A6414DFC76B0012D5BD /* UIImage+SizeControl.m */; };
+		DE432A6D14DFD9D10012D5BD /* Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = DE432A6C14DFD9D10012D5BD /* Animation.m */; };
+		DE432A6F14DFDF800012D5BD /* Apple_Store_Ginza_by_Atreide.png in Resources */ = {isa = PBXBuildFile; fileRef = DE432A6E14DFDF800012D5BD /* Apple_Store_Ginza_by_Atreide.png */; };
+		DE432A7214E225EB0012D5BD /* AutoHide.m in Sources */ = {isa = PBXBuildFile; fileRef = DE432A7114E225EB0012D5BD /* AutoHide.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE432A2114DFBC2A0012D5BD /* ImageFullScreenMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageFullScreenMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE432A2514DFBC2A0012D5BD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DE432A2714DFBC2A0012D5BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DE432A2914DFBC2A0012D5BD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DE432A2D14DFBC2A0012D5BD /* ImageFullScreenMode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageFullScreenMode-Info.plist"; sourceTree = "<group>"; };
+		DE432A2F14DFBC2A0012D5BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE432A3114DFBC2A0012D5BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE432A3314DFBC2A0012D5BD /* ImageFullScreenMode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageFullScreenMode-Prefix.pch"; sourceTree = "<group>"; };
+		DE432A3414DFBC2A0012D5BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE432A3514DFBC2A0012D5BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE432A3714DFBC2A0012D5BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE432A3814DFBC2A0012D5BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE432A3B14DFBC2A0012D5BD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		DE432A4514DFBC990012D5BD /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		DE432A4614DFBC990012D5BD /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
+		DE432A4B14DFBDED0012D5BD /* apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = apple.jpg; path = ../../../../apple.jpg; sourceTree = "<group>"; };
+		DE432A5214DFC2160012D5BD /* ImageFullScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFullScreen.h; sourceTree = "<group>"; };
+		DE432A5314DFC2160012D5BD /* ImageFullScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFullScreen.m; sourceTree = "<group>"; };
+		DE432A5614DFC3410012D5BD /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		DE432A5714DFC4160012D5BD /* Thumbnails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thumbnails.h; sourceTree = "<group>"; };
+		DE432A5814DFC4160012D5BD /* Thumbnails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Thumbnails.m; sourceTree = "<group>"; };
+		DE432A6314DFC76B0012D5BD /* UIImage+SizeControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SizeControl.h"; sourceTree = "<group>"; };
+		DE432A6414DFC76B0012D5BD /* UIImage+SizeControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SizeControl.m"; sourceTree = "<group>"; };
+		DE432A6B14DFD9D10012D5BD /* Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation.h; sourceTree = "<group>"; };
+		DE432A6C14DFD9D10012D5BD /* Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animation.m; sourceTree = "<group>"; };
+		DE432A6E14DFDF800012D5BD /* Apple_Store_Ginza_by_Atreide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Apple_Store_Ginza_by_Atreide.png; path = ../../../../Apple_Store_Ginza_by_Atreide.png; sourceTree = "<group>"; };
+		DE432A7014E225EB0012D5BD /* AutoHide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoHide.h; sourceTree = "<group>"; };
+		DE432A7114E225EB0012D5BD /* AutoHide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoHide.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE432A1E14DFBC2A0012D5BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE432A2614DFBC2A0012D5BD /* UIKit.framework in Frameworks */,
+				DE432A2814DFBC2A0012D5BD /* Foundation.framework in Frameworks */,
+				DE432A2A14DFBC2A0012D5BD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE432A1614DFBC2A0012D5BD = {
+			isa = PBXGroup;
+			children = (
+				DE432A2B14DFBC2A0012D5BD /* ImageFullScreenMode */,
+				DE432A2414DFBC2A0012D5BD /* Frameworks */,
+				DE432A2214DFBC2A0012D5BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE432A2214DFBC2A0012D5BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE432A2114DFBC2A0012D5BD /* ImageFullScreenMode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE432A2414DFBC2A0012D5BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE432A2514DFBC2A0012D5BD /* UIKit.framework */,
+				DE432A2714DFBC2A0012D5BD /* Foundation.framework */,
+				DE432A2914DFBC2A0012D5BD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE432A2B14DFBC2A0012D5BD /* ImageFullScreenMode */ = {
+			isa = PBXGroup;
+			children = (
+				DE432A6A14DFD9D10012D5BD /* Plugins */,
+				DE432A6214DFC76B0012D5BD /* Category */,
+				DE432A5514DFC32F0012D5BD /* Defines */,
+				DE432A4D14DFBDFD0012D5BD /* Resources */,
+				DE432A4214DFBC840012D5BD /* Controllers */,
+				DE432A4314DFBC840012D5BD /* Models */,
+				DE432A4414DFBC840012D5BD /* Views */,
+				DE432A3414DFBC2A0012D5BD /* AppDelegate.h */,
+				DE432A3514DFBC2A0012D5BD /* AppDelegate.m */,
+				DE432A3714DFBC2A0012D5BD /* ViewController.h */,
+				DE432A3814DFBC2A0012D5BD /* ViewController.m */,
+				DE432A3A14DFBC2A0012D5BD /* ViewController.xib */,
+				DE432A2C14DFBC2A0012D5BD /* Supporting Files */,
+			);
+			path = ImageFullScreenMode;
+			sourceTree = "<group>";
+		};
+		DE432A2C14DFBC2A0012D5BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE432A2D14DFBC2A0012D5BD /* ImageFullScreenMode-Info.plist */,
+				DE432A2E14DFBC2A0012D5BD /* InfoPlist.strings */,
+				DE432A3114DFBC2A0012D5BD /* main.m */,
+				DE432A3314DFBC2A0012D5BD /* ImageFullScreenMode-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE432A4214DFBC840012D5BD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DE432A4314DFBC840012D5BD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DE432A4514DFBC990012D5BD /* Image.h */,
+				DE432A4614DFBC990012D5BD /* Image.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DE432A4414DFBC840012D5BD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE432A5214DFC2160012D5BD /* ImageFullScreen.h */,
+				DE432A5314DFC2160012D5BD /* ImageFullScreen.m */,
+				DE432A5714DFC4160012D5BD /* Thumbnails.h */,
+				DE432A5814DFC4160012D5BD /* Thumbnails.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DE432A4D14DFBDFD0012D5BD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DE432A6E14DFDF800012D5BD /* Apple_Store_Ginza_by_Atreide.png */,
+				DE432A4B14DFBDED0012D5BD /* apple.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DE432A5514DFC32F0012D5BD /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				DE432A5614DFC3410012D5BD /* Define.h */,
+			);
+			path = Defines;
+			sourceTree = "<group>";
+		};
+		DE432A6214DFC76B0012D5BD /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				DE432A6314DFC76B0012D5BD /* UIImage+SizeControl.h */,
+				DE432A6414DFC76B0012D5BD /* UIImage+SizeControl.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		DE432A6A14DFD9D10012D5BD /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				DE432A6B14DFD9D10012D5BD /* Animation.h */,
+				DE432A6C14DFD9D10012D5BD /* Animation.m */,
+				DE432A7014E225EB0012D5BD /* AutoHide.h */,
+				DE432A7114E225EB0012D5BD /* AutoHide.m */,
+			);
+			path = Plugins;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE432A2014DFBC2A0012D5BD /* ImageFullScreenMode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE432A3F14DFBC2A0012D5BD /* Build configuration list for PBXNativeTarget "ImageFullScreenMode" */;
+			buildPhases = (
+				DE432A1D14DFBC2A0012D5BD /* Sources */,
+				DE432A1E14DFBC2A0012D5BD /* Frameworks */,
+				DE432A1F14DFBC2A0012D5BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageFullScreenMode;
+			productName = ImageFullScreenMode;
+			productReference = DE432A2114DFBC2A0012D5BD /* ImageFullScreenMode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE432A1814DFBC2A0012D5BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = DE432A1B14DFBC2A0012D5BD /* Build configuration list for PBXProject "ImageFullScreenMode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DE432A1614DFBC2A0012D5BD;
+			productRefGroup = DE432A2214DFBC2A0012D5BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE432A2014DFBC2A0012D5BD /* ImageFullScreenMode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE432A1F14DFBC2A0012D5BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE432A3014DFBC2A0012D5BD /* InfoPlist.strings in Resources */,
+				DE432A3C14DFBC2A0012D5BD /* ViewController.xib in Resources */,
+				DE432A4C14DFBDED0012D5BD /* apple.jpg in Resources */,
+				DE432A6F14DFDF800012D5BD /* Apple_Store_Ginza_by_Atreide.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE432A1D14DFBC2A0012D5BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE432A3214DFBC2A0012D5BD /* main.m in Sources */,
+				DE432A3614DFBC2A0012D5BD /* AppDelegate.m in Sources */,
+				DE432A3914DFBC2A0012D5BD /* ViewController.m in Sources */,
+				DE432A4714DFBC990012D5BD /* Image.m in Sources */,
+				DE432A5414DFC2160012D5BD /* ImageFullScreen.m in Sources */,
+				DE432A5914DFC4160012D5BD /* Thumbnails.m in Sources */,
+				DE432A6514DFC76B0012D5BD /* UIImage+SizeControl.m in Sources */,
+				DE432A6D14DFD9D10012D5BD /* Animation.m in Sources */,
+				DE432A7214E225EB0012D5BD /* AutoHide.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE432A2E14DFBC2A0012D5BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE432A2F14DFBC2A0012D5BD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DE432A3A14DFBC2A0012D5BD /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE432A3B14DFBC2A0012D5BD /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE432A3D14DFBC2A0012D5BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE432A3E14DFBC2A0012D5BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE432A4014DFBC2A0012D5BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageFullScreenMode/ImageFullScreenMode-Prefix.pch";
+				INFOPLIST_FILE = "ImageFullScreenMode/ImageFullScreenMode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DE432A4114DFBC2A0012D5BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageFullScreenMode/ImageFullScreenMode-Prefix.pch";
+				INFOPLIST_FILE = "ImageFullScreenMode/ImageFullScreenMode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE432A1B14DFBC2A0012D5BD /* Build configuration list for PBXProject "ImageFullScreenMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE432A3D14DFBC2A0012D5BD /* Debug */,
+				DE432A3E14DFBC2A0012D5BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE432A3F14DFBC2A0012D5BD /* Build configuration list for PBXNativeTarget "ImageFullScreenMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE432A4014DFBC2A0012D5BD /* Debug */,
+				DE432A4114DFBC2A0012D5BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE432A1814DFBC2A0012D5BD /* Project object */;
+}
